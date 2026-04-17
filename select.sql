@@ -20,8 +20,7 @@ WHERE name NOT LIKE '% %';
 
 SELECT title
 FROM track
-WHERE LOWER(title) LIKE '%my%'
-   OR LOWER(title) LIKE '%мой%';
+WHERE title ~* '\m(my|мой)\M';
 
 
 -- ================

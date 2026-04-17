@@ -48,7 +48,18 @@ INSERT INTO track (title, duration, album_id) VALUES
   ('Oh my God', 225, 5),
   ('Wrecked', 250, 6),
   ('Follow You', 175, 6),
-  ('Ciao Bella', 190, 2);
+  ('Ciao Bella', 190, 2),
+  ('my own', 180, 1),
+  ('own my', 181, 1),
+  ('my', 182, 1),
+  ('oh my god', 183, 1),
+  ('myself', 184, 1),
+  ('by myself', 185, 1),
+  ('bemy self', 186, 1),
+  ('myself by', 187, 1),
+  ('by myself by', 188, 1),
+  ('beemy', 189, 1),
+  ('premyne', 190, 1);
 
 INSERT INTO compilation (name, release_year) VALUES
   ('Лучшие хиты 2018', 2018),
